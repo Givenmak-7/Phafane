@@ -1,0 +1,229 @@
+/* =========================
+   CSS RESET & BASE
+   ========================= */
+
+body {
+  background-color: #f9fafb;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1.7;
+  color: #1f2937; /* slate-800 */
+  background-color: #f9fafb; /* gray-50 */
+}
+
+/* =========================
+   LAYOUT
+   ========================= */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.site-title a {
+  text-decoration: none;
+  color: #111827;
+}
+
+.site-tagline {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.site-content {
+  margin-top: 2rem;
+}
+
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 1.25rem;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+  color: #6b7280;
+}
+
+/* =========================
+   TYPOGRAPHY
+   ========================= */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #111827;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+small {
+  font-size: 0.85rem;
+}
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+  color: #2563eb; /* blue-600 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   LISTS
+   ========================= */
+
+ul,
+ol {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+/* =========================
+   BLOCKQUOTES
+   ========================= */
+
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  background-color: #f3f4f6;
+  border-left: 4px solid #2563eb;
+  color: #374151;
+  font-style: italic;
+}
+
+/* =========================
+   CODE BLOCKS
+   ========================= */
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono",
+    Menlo, monospace;
+  font-size: 0.9rem;
+  background-color: #f3f4f6;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #111827;
+  color: #f9fafb;
+  padding: 1.25rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* =========================
+   TABLES
+   ========================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+th {
+  background-color: #f3f4f6;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* =========================
+   CALLOUT SECTIONS
+   ========================= */
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 3rem 0;
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    padding: 1.5rem 1rem;
+  }
+}
