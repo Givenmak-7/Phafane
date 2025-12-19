@@ -16,21 +16,21 @@ The school website aims to build a durable, easy-to-maintain website that gives 
 
 ### 💻 Development
 
-- [Project Overview](/Phafane/docs/Development/Overview.md)
+- [Project Overview](../docs/Development/Overview.md)
 - [Local Setup](#)
 - [Workflow & Conventions](#)
 
 
 ### 🏗 Architecture
 
-- [Tech Stack](/Phafane/docs/Architecture/TechStack.md)
+- [Tech Stack](../docs/Architecture/TechStack.md)
 - [Folder Structure](#)
 - [Deployment Strategy](#)
 - [CMS Overview](#)
 
 ### 🧠 Decisions Log
 
-- [Sprint 01 Decisions](/Phafane/docs/DecisionLog/Sprint_1.md)
+- [Sprint 01 Decisions](../docs/DecisionLog/Sprint_1.md)
 
 ---
 
