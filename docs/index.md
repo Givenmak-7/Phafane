@@ -1,8 +1,3 @@
----
-layout: default
-title: School Website – Documentation
----
-
 # Phafane School Website Documentation
 
 Welcome to the **Phafane School Website documentation**.
@@ -13,38 +8,29 @@ This documentation is a living source of truth for **architecture decisions, dev
 
 ## 📌 Project Overview
 
-🚧 **Early Development Phase**  
-This documentation will grow alongside the project. Some sections are placeholders and will be filled as decisions are finalized.
+The school website aims to build a durable, easy-to-maintain website that gives Phafane Secondary School a professional, long-term digital presence, centralizing communication with parents, students, and the community; providing reliable access to announcements, events, policies, and contacts; showcasing academic and cultural activities; and serving as a living archive of the school’s history, values, milestones, and growth, all with a focus on clarity, sustainability, and adaptability—even in low-resource environments.
 
 ---
 
 ## 📂 Documentation Sections
 
-### 🧭 Overview
-
-- [Project Overview](#)
-- [Goals & Non-Goals](#)
-
-### 🏗 Architecture
-
-- [Tech Stack](#)
-- [Folder Structure](#)
-- [Deployment Strategy](#)
-
 ### 💻 Development
 
+- [Project Overview](/Phafane/docs/Development/Overview.md)
 - [Local Setup](#)
 - [Workflow & Conventions](#)
 
-### 🗂 CMS
 
+### 🏗 Architecture
+
+- [Tech Stack](/Phafane/docs/Architecture/TechStack.md)
+- [Folder Structure](#)
+- [Deployment Strategy](#)
 - [CMS Overview](#)
 
 ### 🧠 Decisions Log
 
-- [Day 01 Decisions](#)
-- [Day 02 Decisions](#)
-- [Day 03 Decisions](#)
+- [Sprint 01 Decisions](/Phafane/docs/DecisionLog/Sprint_1.md)
 
 ---
 
@@ -68,12 +54,8 @@ This documentation exists to:
 
 ---
 
-> “Good documentation is a gift from your past self to your future self.”
-
----
-
 <footer>
 <small>
-Maintained as part of the School Website Project · Powered by GitHub Pages
+Maintained as part of the Phafane School Website Project · Powered by GitHub Pages
 </small>
 </footer>
