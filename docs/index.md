@@ -16,21 +16,21 @@ The school website aims to build a durable, easy-to-maintain website that gives 
 
 ### 💻 Development
 
-- [Project Overview](../docs/Development/Overview.md)
+- [Project Overview](./Development/Overview.md)
 - [Local Setup](#)
 - [Workflow & Conventions](#)
 
 
 ### 🏗 Architecture
 
-- [Tech Stack](../docs/Architecture/TechStack.md)
+- [Tech Stack](./Architecture/TechStack.md)
 - [Folder Structure](#)
 - [Deployment Strategy](#)
 - [CMS Overview](#)
 
 ### 🧠 Decisions Log
 
-- [Sprint 01 Decisions](../docs/DecisionLog/Sprint_1.md)
+- [Sprint 01 Decisions](./DecisionLog/Sprint_1.md)
 
 ---
 
