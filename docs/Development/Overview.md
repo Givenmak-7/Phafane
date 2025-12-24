@@ -1,13 +1,11 @@
-# Introduction 
-
-## Project Overview and Goal 🥅
+# Project Overview and Goal 🥅
 
 The goal of this project is to create a **strong, reliable, and long-term digital presence for Phafane Secondary school**. The website serves as a central platform that connects the school with the public, supports communication, and represents the institution in a clear and professional manner.
 
 At a functional level, the website helps facilitate:
 - Communication between the school and parents, students, and the wider community
-- Access to important information such as announcements, events, policies, and contacts
-- Visibility of the school’s academic and cultural activities
+- Access to important information such as mission statement, announcements, events, applications, policies, and contacts.
+- Visibility of the school’s academic achievements, student life and cultural activities.
 
 Beyond communication, the website also acts as a **living record of the school’s identity**. It documents the school’s history, values, milestones, and future direction by capturing years of academic achievement, growth, and success. Over time, it becomes an archive that reflects the school’s journey, preserving institutional memory for future generations.
 
@@ -58,5 +56,6 @@ This project follows these core principles:
 - **Maintainability:** the site should be easy to update and support long-term
 - **Accessibility:** content should be usable by a broad audience
 - **Cost awareness:** minimize ongoing financial and technical overhead
-- **Separation of concerns:** content, structure, and styling are treated independently
 
+
+---
