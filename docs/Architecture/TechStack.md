@@ -17,13 +17,13 @@ The Phafane Secondary School website is designed as a **static, maintainable, an
 - Provides fast builds, hot module replacement, and optimized production output
 - **Reason for choice:** Lightweight, fast, and integrates smoothly with React for modern front-end development
 
-### 4. **Tailwind CSS (v3)**
+### 3. **Tailwind CSS (v3)**
 - **Purpose:** Utility-first CSS framework
 - Provides pre-defined CSS classes to style content quickly
 - Enables rapid development of clean and responsive layouts
 - **Reason for choice:** Lightweight, scalable, and aligns with the goal of deferring styling until content is stable
 
-### 5. **Markdown**
+### 4. **Markdown**
 - **Purpose:** Primary format for content
 - Easy to write and maintain
 - Directly compatible with Jekyll for static page generation
@@ -33,7 +33,6 @@ The Phafane Secondary School website is designed as a **static, maintainable, an
 
 ## CMS (Content Management System)
 
-### **Headless CMS**
 - A headless CMS could be integrated later to allow non-technical staff to edit content via a web interface
 - Examples: **Netlify CMS, Strapi, Contentful**
 - Separation from presentation ensures that any CMS integration does not impact site layout or templates
