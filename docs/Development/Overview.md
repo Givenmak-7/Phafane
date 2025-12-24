@@ -3,6 +3,7 @@
 The goal of this project is to create a **strong, reliable, and long-term digital presence for Phafane Secondary school**. The website serves as a central platform that connects the school with the public, supports communication, and represents the institution in a clear and professional manner.
 
 At a functional level, the website helps facilitate:
+
 - Communication between the school and parents, students, and the wider community
 - Access to important information such as mission statement, announcements, events, applications, policies, and contacts.
 - Visibility of the school’s academic achievements, student life and cultural activities.
@@ -16,6 +17,7 @@ This project is designed with longevity and sustainability in mind. The focus is
 ## What the Website Aims to Achieve 📊
 
 The school website aims to:
+
 - Establish a trustworthy and professional online presence
 - Improve transparency and accessibility of school information
 - Strengthen engagement between the school and the public
@@ -30,18 +32,21 @@ The website should remain useful whether the school is actively publishing updat
 ## Target Users 🎯
 
 ### Schools (Institution / Management)
+
 - Present the school clearly and professionally to the public
 - Communicate key information in a centralized location
 - Maintain ownership of content and historical records
 - Use a system that supports long-term sustainability
 
 ### Administrators and Staff
+
 - Publish announcements, news, and updates
 - Share academic calendars, policies, and official documents
 - Reduce repetitive communication by directing users to a single source of truth
 - Manage content without requiring deep technical expertise
 
 ### Developers and Maintainers
+
 - Work with a clear and well-documented project structure
 - Understand design and architectural decisions through documentation
 - Maintain, extend, or replicate the project for other schools
@@ -52,10 +57,10 @@ The website should remain useful whether the school is actively publishing updat
 ## Guiding Principles 🛣️
 
 This project follows these core principles:
+
 - **Clarity over complexity:** simple, understandable solutions are preferred
 - **Maintainability:** the site should be easy to update and support long-term
 - **Accessibility:** content should be usable by a broad audience
 - **Cost awareness:** minimize ongoing financial and technical overhead
-
 
 ---

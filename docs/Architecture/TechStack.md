@@ -7,23 +7,27 @@ The Phafane Secondary School website is designed as a **static, maintainable, an
 ## Core Technologies
 
 ### 1. **React**
+
 - **Purpose:** Front-end JavaScript library for building user interfaces
 - Enables creation of reusable components and interactive elements
 - Works with JSX for clear structure and maintainable code
 - **Reason for choice:** Provides flexibility for future interactive features while maintaining a component-based structure
 
 ### 2. **Vite**
+
 - **Purpose:** Build tool and development server for modern web projects
 - Provides fast builds, hot module replacement, and optimized production output
 - **Reason for choice:** Lightweight, fast, and integrates smoothly with React for modern front-end development
 
 ### 3. **Tailwind CSS (v3)**
+
 - **Purpose:** Utility-first CSS framework
 - Provides pre-defined CSS classes to style content quickly
 - Enables rapid development of clean and responsive layouts
 - **Reason for choice:** Lightweight, scalable, and aligns with the goal of deferring styling until content is stable
 
 ### 4. **Markdown**
+
 - **Purpose:** Primary format for content
 - Easy to write and maintain
 - Directly compatible with Jekyll for static page generation
@@ -40,6 +44,7 @@ The Phafane Secondary School website is designed as a **static, maintainable, an
 ---
 
 ## Guiding Principles in Tech Choices
+
 - **Simplicity first:** Minimal tooling to get a reliable site running
 - **Maintainability:** Tools chosen should be easy to learn and use long-term
 - **Separation of Concerns:** Content, structure, styling, and behavior are independent

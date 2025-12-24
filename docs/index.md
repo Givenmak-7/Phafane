@@ -20,7 +20,6 @@ The school website aims to build a durable, easy-to-maintain website that gives 
 - [Local Setup](#)
 - [Workflow & Conventions](#)
 
-
 ### 🏗 Architecture
 
 - [Tech Stack](./Architecture/TechStack.md)
@@ -54,8 +53,10 @@ This documentation exists to:
 
 ---
 
+<!-- markdownlint-disable MD033 -->
 <footer>
 <small>
 Maintained as part of the Phafane School Website Project · Powered by GitHub Pages
 </small>
 </footer>
+<!-- markdownlint-enable MD033 -->
