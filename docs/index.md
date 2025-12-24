@@ -47,7 +47,7 @@ This documentation exists to:
 
 ## 📖 How to Use These Docs
 
-- Start with **Project Overview** to understand the vision
+- Start with **Project Overview** under **Development** to understand the vision
 - Refer to **Architecture** for system-level decisions
 - Use **Development** when working on features
 - Check **Decisions Log** for historical context
