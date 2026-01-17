@@ -1,19 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Contact from "./pages/contact";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <h1 className="text-4xl font-bold text-blue-600">
-  Tailwind is working
-</h1>
-
-    </>
-  )
+    <div className="bg-white text-[#003366] min-h-screen flex flex-col">
+      <Navbar />
+      <main className="flex-grow max-w-6xl mx-auto px-4 py-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
 }
-
-export default App
