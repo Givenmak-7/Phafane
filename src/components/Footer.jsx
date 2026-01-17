@@ -31,7 +31,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-[#003366] text-[#FFD700]">
-      <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
+      <div className="max-w-7xl mx-auto px-4 py-5 md:py-5">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 
           {/* School Info */}
@@ -147,7 +147,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/50">
         <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-white/60 text-center">
             © {new Date().getFullYear()} Phafane Secondary School. All rights reserved.

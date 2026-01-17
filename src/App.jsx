@@ -9,13 +9,14 @@ export default function App() {
   return (
     <div className="bg-white text-[#003366] min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow max-w-6xl mx-auto px-4 py-1">
+
+      <main className="flex-grow w-full">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          
         </Routes>
       </main>
+
       <Footer />
     </div>
   );

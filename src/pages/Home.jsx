@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, BookOpen, Palette, Users, Calendar, Lightbulb } from "lucide-react";
+import { useEffect, useState } from "react";  
 import heroImage from "../assets/images/IMG_5178.JPG";
+import heroImage2 from "../assets/images/PSSBOYS.png";
+import heroImage3 from "../assets/images/PSSBOYS2.JPG";
 import academicsImage from "../assets/images/PSSGIRLS.JPG";
 import creativityImage from "../assets/images/pic.jpg";
 import studentLifeImage from "../assets/images/PSSGIRLS2.JPG";
+
+
 
 // Highlight cards data
 const highlights = [
@@ -80,17 +85,53 @@ const latestNews = [
   },
 ];
 
+const heroImages = [heroImage, heroImage2, heroImage3];
+
+
 export default function Home() {
+const [currentImage, setCurrentImage] = useState(0);
+
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % heroImages.length);
+  }, 3000); // change image every 5 seconds
+
+  return () => clearInterval(interval);
+}, []);
+
+
   return (
-    <div className="flex flex-col gap-7">
+    <div className="flex flex-col">
       {/* Hero Section */}
-      <section className=" bg-[#003366] text-white">
-        
+        <section className="relative bg-[#003366] text-white min-h-[80vh] lg:min-h-screen">
+
         <div className="absolute inset-0">
-          <img src={heroImage} alt="Students" className="w-full h-full object-cover opacity-100" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#003366] via-[#003366]/60 to-[#003366]/10" />
+          {heroImages.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt="Students at Phafane Secondary School"
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              index === currentImage ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
+
+        <div className="absolute inset-0">
+            {heroImages.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt="Students at Phafane Secondary School"
+                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                  index === currentImage ? "opacity-100" : "opacity-0"
+                }`}
+              />
+            ))}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#003366] via-[#003366]/55 to-[#003366]/10" />
+          </div>
+
         </div>
-        
         <div className="relative container mx-auto py-20 md:py-28 lg:py-36 text-center">
           <span className="inline-block mb-4 px-4 py-1.5 rounded-full bg-[#FFD700]/20 text-sm font-medium text-[#FFD700]">
             Welcome to Our School
@@ -210,24 +251,28 @@ export default function Home() {
 
       {/* CTA */}
       <section className="bg-[#003366] py-16 md:py-24 text-center text-white">
+        
         <h2 className="text-3xl md:text-4xl font-bold">Ready to Join Our Community?</h2>
         <p className="mt-4 max-w-xl mx-auto text-lg text-white/80">
           Take the first step towards an excellent education. Apply today and become part of the Phafane family.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
+         
+
           <Link
             to="/apply"
-            className="inline-flex items-center gap-2 rounded-full bg-[#FFD700] px-6 py-3 font-semibold text-[#003366] hover:bg-[#003366] hover:text-[#FFD700] transition"
+            className="inline-flex items-center gap-2 rounded-full bg-[#FFD700] px-6 py-3 font-semibold text-[#003366] hover:bg-[#003366] hover:text-[#FFD700] transition shadow-md hover:shadow-lg"
           >
             Start Your Application
           </Link>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 rounded-full border border-[#FFD700] px-6 py-3 font-semibold hover:bg-[#FFD700] hover:text-[#003366] transition"
+            className="inline-flex items-center gap-2 rounded-full border border-[#FFD700] px-6 py-3 font-semibold hover:bg-[#FFD700] hover:text-[#003366] transition shadow-md hover:shadow-lg"
           >
             Get in Touch
           </Link>
         </div>
+        <div className="mt-16 border-t border-white/50" />
       </section>
     </div>
   );
