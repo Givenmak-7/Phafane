@@ -1,18 +1,62 @@
-# React + Vite
+# Phafane School Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Phafane School Website**.
 
-Currently, two official plugins are available:
+The documentation below is a living source of truth for **architecture decisions, development workflow, CMS strategy, and deployment practices** used throughout the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The school website aims to build a durable, easy-to-maintain website that gives Phafane Secondary School a professional, long-term digital presence, centralizing communication with parents, students, and the community; providing reliable access to announcements, events, policies, and contacts; showcasing academic and cultural activities; and serving as a living archive of the school’s history, values, milestones, and growth, all with a focus on clarity, sustainability, and adaptability—even in low-resource environments.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 📂 Documentation Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💻 Development
+
+- [Project Overview](./Development/Overview.md)
+- [Local Setup](#)
+- [Workflow & Conventions](#)
+
+### 🏗 Architecture
+
+- [Tech Stack](./Architecture/TechStack.md)
+- [Folder Structure](#)
+- [Deployment Strategy](#)
+- [CMS Overview](#)
+
+### 🧠 Decisions Log
+
+- [Sprint 01 Decisions](./DecisionLog/Sprint_1.md)
+
+---
+
+## 🎯 Purpose of This Documentation
+
+This documentation exists to:
+
+- Explain **why** certain technical decisions were made
+- Help new contributors onboard quickly
+- Reduce future maintenance cost
+- Act as a long-term reference for scaling the project
+
+---
+
+## 📖 How to Use These Docs
+
+- Start with **Project Overview** under **Development** to understand the vision
+- Refer to **Architecture** for system-level decisions
+- Use **Development** when working on features
+- Check **Decisions Log** for historical context
+
+---
+
+<!-- markdownlint-disable MD033 -->
+<footer>
+<small>
+Maintained as part of the Phafane School Website Project · Powered by GitHub Pages
+</small>
+</footer>
+<!-- markdownlint-enable MD033 -->
